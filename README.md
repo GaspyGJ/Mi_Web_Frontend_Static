@@ -1,6 +1,8 @@
-# Mi Web Frontend
+# Mi Web Frontend Static
 
-#### Sitio web personal desarrollado en Angular con conexión API (Java backend) para obtener informacion mostrada en la pagina desde una base de datos (MySql)
+#### Sitio web personal desarrollado en Angular
+
+Versión de Mi_Web_Frontend pero sin conexión al servidor backend. Esto Debido a escaso recurso monetario para abordar el hosting del servidor en internet.
 
 [CLICK para visitar sitio](https://gasparjullier.up.railway.app/)
 
