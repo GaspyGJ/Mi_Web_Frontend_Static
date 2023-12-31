@@ -1,0 +1,62 @@
+<section class="container-seccion">
+  <div class="titulo-seccion">
+    <button (click)="volver()" class="icon-back">
+      <mat-icon>keyboard_arrow_left</mat-icon>
+    </button>
+    <h2>Educación</h2>
+  </div>
+
+  <div *ngIf="!isLoad" style="display: flex; justify-content: center">
+    <span class="loader"></span>
+  </div>
+  <div *ngIf="isError">
+    <mat-card>
+      <mat-card-header style="margin: 0 auto">
+        <mat-card-title>Error</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p>No se pudo conectar al servidor.</p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  <div *ngIf="!isError && isLoad && educaciones.length == 0">
+    <mat-card>
+      <mat-card-header style="margin: 0 auto">
+        <mat-card-title>Lista de educaciones vacia</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p>No hay datos en la base de datos.</p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+
+  <div *ngIf="isLoad">
+
+    <div class="container-elementos-seccion">
+      <mat-card class="card" *ngFor="let educacion of educaciones">
+        <mat-card-header style="margin: 0 auto">
+          <mat-card-title>{{ educacion.titulo }}</mat-card-title>
+          <mat-card-subtitle
+            >{{ educacion.anioInicio }} -
+            {{ educacion.anioFin }}</mat-card-subtitle
+          >
+        </mat-card-header>
+        <mat-card-content>
+          <p>{{ educacion.descripcion }}</p>
+          <p>
+            <small>{{ educacion.estado }}</small>
+          </p>
+
+          <a
+            class="btn-certificado"
+            *ngIf="educacion.certificado"
+            href={{educacion.certificado}}
+            target="_blank"
+          >
+            Certificado
+        </a>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</section>
