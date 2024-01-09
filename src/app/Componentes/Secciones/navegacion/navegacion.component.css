@@ -17,51 +17,24 @@
 }
 
 .icon-move-page {
+  transform: scale(1);
   color: var(--negro);
   background-color: var(--azul-suave-transparente);
   border: none;
-  opacity: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 10px;
+  margin-top: 8px;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
   padding: 5px;
-  transform: scale(1);
-  -webkit-animation-name: aparicion-icon-move-pagee;
-  animation-name: aparicion-icon-move-page;
-  -webkit-animation-delay: 2.5s;
-  animation-delay: 2.5s;
-  -webkit-animation-duration: 0.5s;
-  animation-duration: 0.5s;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  -webkit-animation-timing-function: ease-in-out;
-  animation-timing-function: ease-in-out;
   transition: transform 1s;
 }
 .icon-move-page:hover {
   cursor: pointer;
-  transform: scale(1.15);
+  transform: scale(1.1);
   background-color: var(--azul-suave);
-}
-@-webkit-keyframes aparicion-icon-move-page {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@keyframes aparicion-icon-move-page {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
 }
 
 @media screen and (max-width: 1400px) {
