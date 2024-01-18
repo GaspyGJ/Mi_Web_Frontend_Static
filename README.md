@@ -4,7 +4,7 @@
 
 Versión de Mi_Web_Frontend pero sin conexión al servidor backend. Esto Debido a escaso recurso monetario para abordar el hosting del servidor en internet.
 
-Para visitar la web (deploy Firebase)[CLICK AQUI](https://gaspy-dev.web.app/)
+Para visitar la web (deploy Firebase) [CLICK AQUI](https://gaspy-dev.web.app/)
 
 Otra opcion utilizando GitHub Pages [CLICK AQUI](https://gaspygj.github.io/)
 
