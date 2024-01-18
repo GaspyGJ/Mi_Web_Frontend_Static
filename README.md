@@ -4,7 +4,7 @@
 
 Versión de Mi_Web_Frontend pero sin conexión al servidor backend. Esto Debido a escaso recurso monetario para abordar el hosting del servidor en internet.
 
-[CLICK para visitar sitio](https://gasparjullier.up.railway.app/)
+Para visitar la web [CLICK AQUI](https://gaspy-dev.web.app/)
 
 <img src="./src/assets/imagenes/EsteProyecto/capturaOpenGraph.png" height=360px width=520px />
 
