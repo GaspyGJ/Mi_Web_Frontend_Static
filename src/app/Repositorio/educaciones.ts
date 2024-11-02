@@ -4,10 +4,10 @@ export const educaciones: Educacion[] =[
 	{
 		"id" : 1,
 		"anioFin" : "2018",
-		"anioInicio" : "2019",
+		"anioInicio" : "2023",
 		"certificado" : null,
 		"descripcion" : "Analista de sistemas UTN FRSF",
-		"estado" : "Cursando",
+		"estado" : "Finalizado",
 		"numeroOrden" : 0,
 		"titulo" : "Universitario"
 	},
